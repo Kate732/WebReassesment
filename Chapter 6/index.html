@@ -1,0 +1,26 @@
+<html lang="en-UK">
+
+<head> <!-- Head of the code -->
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js"></script>
+    <title>Home page</title>
+</head>
+
+<body> <!-- Start of the body -->
+    <header>
+        <h1>Petrol Calculator</h1> <!-- Main header -->
+    </header>
+
+    <main>
+        <p>This is a petrol calculator!</p> <!-- Description -->
+            <label for="costPerLiter">Cost of petrol per liter:</label> <!-- First input and it's label for cost per liter -->
+            <input type="number" id="costPerLiter" value="1.72">
+            <label for="numberOfLiters">Number of liters purchased:</label> <!-- Second input and it's label for number of liters -->
+            <input type="number" id="numberOfLiters" value="0"> <br><br> 
+            <button type="button" class="button" onclick="total()">Calculate</button><br> <!-- Button to calculate result and display it -->
+            <p>Total price is: <input id="total" value=""></p>
+    </main>
+
+</body>
+
+</html>
