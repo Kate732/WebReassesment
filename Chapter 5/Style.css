@@ -1,0 +1,34 @@
+body {
+  background-color: 0B287C;
+  font-family: "Courier New";
+  background-size: cover;
+  color: antiquewhite;
+}
+
+.navigation {
+  display: inline;
+  margin: 15px;
+}
+
+.header {
+  color: BlueViolet;
+  text-align: center;
+}
+
+.video {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #789fe880;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #b566f296;
+  color: #ffffff;
+}
